@@ -5,6 +5,7 @@ public void m1(Student Stu)
 	System.out.println(Stu.age);
 	System.out.println(Stu.rollno);
 	System.out.println(Stu.name);
+	System.out.println("Amita");
 
 }
 
