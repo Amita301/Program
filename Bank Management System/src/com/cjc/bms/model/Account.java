@@ -7,7 +7,7 @@ public class Account {
   private long adharNo;
   private String gender;
   private int age;
-  private double balance;
+  private static  double balance;
   private int choice;
 public int getChoice() {
 	return choice;

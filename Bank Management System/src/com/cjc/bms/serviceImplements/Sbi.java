@@ -1,6 +1,7 @@
 package com.cjc.bms.serviceImplements;
 
 import com.cjc.bms.service.Rbi;
+import com.cjc.bms.client.Test;
 import com.cjc.bms.model.Account;
 
 import java.util.Scanner;
@@ -53,6 +54,8 @@ public class Sbi implements Rbi {
       
         account.setBalance(account.getBalance() + amount);
         System.out.println("Amount deposited successfully.");
+        int a=sc.nextInt();
+        Test.main(null);
     }
 
     public void withdrawal() {
@@ -64,11 +67,15 @@ public class Sbi implements Rbi {
        
             account.setBalance(account.getBalance() - amount);
             System.out.println("Amount withdrawn successfully.");
+            int a=sc.nextInt();
+            Test.main(null);
         }
     
 
     public void balanceCheck() {
         System.out.println("Account Balance: " + account.getBalance());
+        int a=sc.nextInt();
+        Test.main(null);
     }
     
 }
